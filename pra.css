@@ -1,0 +1,148 @@
+* {
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0%;
+    background-size: cover;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+header{
+    width: 100%;
+}
+.navbar {
+    background-color: rgba(17, 13, 43, 0.66);
+    width: 100%;
+    height: 40px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: 2px;
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    /* padding: 3px 7px; */
+    text-decoration: none;
+    margin: 13px 20px;
+
+
+}
+
+
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: aliceblue;
+    margin: 13px 5px;
+}
+
+.navbar li i {
+
+    color: azure;
+}
+
+
+
+.golu {
+    width: fit-content;
+    height: 400px;
+    background-color: rgba(42, 26, 55, 0.351);
+    margin-left: 20spx;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 50px;
+}
+
+.golu img {
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px
+}
+
+.button {
+    background-color: rgb(217, 226, 43);
+    width: 150px;
+    height: 30px;
+    margin-left: 75px;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.golu audio {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(78 69 86 / 26%);
+    border-radius: 5px;
+    margin-left: 50px;
+    
+}
+
+/* add video section */
+
+.vid {
+    width: fit-content;
+    height: 400px;
+    background-color: rgba(79, 41, 111, 0.425);
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 50px
+}
+
+.vid video {
+    width: 350px;
+    height: 250px;
+    background-color: rgb(32, 26, 26, 0.593);
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+/* table css */
+
+.tab {
+    width: fit-content;
+    height: 400px;
+    background-color: rgba(79, 41, 111, 0.425);
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px
+}
+
+.tab p {
+    color: rgb(59, 218, 65);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-style: initial;
+}
+
+.total {
+    display: flex;
+    
+    
+    margin-top: 30px;
+    border: 5px;
+    
+    border-radius: 5px;
+    margin: 5px 5px 5px 5px;
+
+}
+.search-box{
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 100px;
+    outline: none;
+}
